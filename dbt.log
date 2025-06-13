@@ -1,0 +1,88 @@
+[0m15:58:36.110302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222FB64F260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222FBC03F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222FBC03D10>]}
+
+
+============================== 15:58:36.117406 | a03c6f40-a814-4228-a438-aaa26359ff2d ==============================
+[0m15:58:36.117406 [info ] [MainThread]: Running with dbt=1.9.4
+[0m15:58:36.118638 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\91944\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init spacex_pipeline', 'send_anonymous_usage_stats': 'True'}
+[0m15:58:36.139527 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/91944/.dbt')}
+[0m15:58:36.140925 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m15:58:36.143731 [debug] [MainThread]: Starter project path: C:\Users\91944\Downloads\3.Projects Portfolio\Projects\Space_Ex\venv\Lib\site-packages\dbt\include\starter_project
+[0m15:58:36.182624 [info ] [MainThread]: 
+Your new dbt project "spacex_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:58:36.185363 [info ] [MainThread]: Setting up your profile.
+[0m15:59:03.510417 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m15:59:03.510417 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m16:24:02.750884 [info ] [MainThread]: Profile spacex_pipeline written to C:\Users\91944\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:24:02.753898 [debug] [MainThread]: Command `dbt init` succeeded at 16:24:02.752897 after 1526.77 seconds
+[0m16:24:02.754896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222FB94F710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222FC0B8860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222FB3BF0B0>]}
+[0m16:24:02.755895 [debug] [MainThread]: Flushing usage events
+[0m16:24:03.185189 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:26:17.384117 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019ED57A1400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019ED542C920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019ED34DD310>]}
+
+
+============================== 16:26:17.390221 | 0c3bbd8d-d859-4880-85a5-9f524f514c50 ==============================
+[0m16:26:17.390221 [info ] [MainThread]: Running with dbt=1.9.4
+[0m16:26:17.391126 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\91944\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init spacex_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m16:26:17.419676 [debug] [MainThread]: Starter project path: C:\Users\91944\Downloads\3.Projects Portfolio\Projects\Space_Ex\venv\Lib\site-packages\dbt\include\starter_project
+[0m16:26:17.436371 [info ] [MainThread]: 
+Your new dbt project "spacex_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:26:17.437372 [info ] [MainThread]: Setting up your profile.
+[0m16:27:10.545442 [error] [MainThread]: Encountered an error:
+
+[0m16:27:10.641635 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\91944\Downloads\3.Projects Portfolio\Projects\Space_Ex\venv\Lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91944\Downloads\3.Projects Portfolio\Projects\Space_Ex\venv\Lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91944\Downloads\3.Projects Portfolio\Projects\Space_Ex\venv\Lib\site-packages\dbt\cli\main.py", line 477, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\91944\Downloads\3.Projects Portfolio\Projects\Space_Ex\venv\Lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\Users\91944\Downloads\3.Projects Portfolio\Projects\Space_Ex\venv\Lib\site-packages\dbt\task\init.py", line 261, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91944\Downloads\3.Projects Portfolio\Projects\Space_Ex\venv\Lib\site-packages\dbt\task\init.py", line 242, in ask_for_adapter_choice
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91944\Downloads\3.Projects Portfolio\Projects\Space_Ex\venv\Lib\site-packages\click\termui.py", line 168, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91944\Downloads\3.Projects Portfolio\Projects\Space_Ex\venv\Lib\site-packages\click\termui.py", line 151, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m16:27:10.643645 [debug] [MainThread]: Command `dbt init` failed at 16:27:10.643645 after 53.40 seconds
+[0m16:27:10.644632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019ED45DE540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019ED4D6D9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019ED58D72F0>]}
+[0m16:27:10.644632 [debug] [MainThread]: Flushing usage events
+[0m16:27:11.072669 [debug] [MainThread]: An error was encountered while trying to flush usage events
