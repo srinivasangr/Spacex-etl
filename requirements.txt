@@ -1,0 +1,6 @@
+s3fs
+awscli
+boto3
+requests
+dbt-core 
+dbt-redshift
