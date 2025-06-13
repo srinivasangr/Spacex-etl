@@ -5,7 +5,7 @@ ETL SpaceX
 This project is an ETL (Extract, Transform, Load) pipeline for fetching SpaceX data, transforming it into CSV format, and uploading it to an AWS S3 bucket. Additionally, the project includes a dbt project for transforming the data in Redshift and an Airflow DAG to orchestrate the pipeline.
 
 ---
-
+[ETL Pipeline](fig1.png)
 ## Features
 
 - Fetch SpaceX data from the SpaceX API.
