@@ -1,0 +1,10 @@
+#models/spacex_sources.yml
+version: 2
+
+sources:
+  - name: spacexdb
+    database: dev         # your Redshift DB
+    schema: public        # Redshift schema
+    tables:
+      - name: spacex_launches_local
+
